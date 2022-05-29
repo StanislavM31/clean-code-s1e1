@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.header {
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header .img-matrix {
+header .img-matrix {
   width: 100%;
 }
 
-.header .more-inf {
+header .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .header {
+  header {
     text-align: center;
   }
 
 }
 
-.main {
+main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -50,7 +50,7 @@ ul {
 }
 
 li,
-h3 {
+h1 {
   list-style: none;
 }
 
@@ -74,11 +74,22 @@ button:hover {
 }
 
 /* Heading */
-h3,
+h1,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  list-style: none;
   border-bottom: 2px solid #333;
   padding: 30px 0 10px;
   margin: 0;
